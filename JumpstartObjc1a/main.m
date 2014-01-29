@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RentalCar.h"
 
 int main(int argc, const char * argv[])
 {
@@ -15,6 +16,15 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         NSLog(@"Hello, World!");
+        
+        RentalCar *car = [[RentalCar alloc] init];
+        car.make = @"Toyota";
+        car.model = @"Camry";
+        //example without dot syntax
+        [car setMake:@"Toyota"];
+        [car setModel:@"Camry"];
+        
+        NSLog(@"%@", [car printCarDetails]);
         
     }
     return 0;

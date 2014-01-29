@@ -10,6 +10,7 @@
 		D05C739818989D0F00383531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05C739718989D0F00383531 /* Foundation.framework */; };
 		D05C739B18989D0F00383531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05C739A18989D0F00383531 /* main.m */; };
 		D05C739F18989D0F00383531 /* JumpstartObjc1a.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D05C739E18989D0F00383531 /* JumpstartObjc1a.1 */; };
+		D05C73A718989F2200383531 /* RentalCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D05C73A618989F2200383531 /* RentalCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		D05C739A18989D0F00383531 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D05C739D18989D0F00383531 /* JumpstartObjc1a-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JumpstartObjc1a-Prefix.pch"; sourceTree = "<group>"; };
 		D05C739E18989D0F00383531 /* JumpstartObjc1a.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JumpstartObjc1a.1; sourceTree = "<group>"; };
+		D05C73A518989F2200383531 /* RentalCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentalCar.h; sourceTree = "<group>"; };
+		D05C73A618989F2200383531 /* RentalCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentalCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				D05C739A18989D0F00383531 /* main.m */,
+				D05C73A518989F2200383531 /* RentalCar.h */,
+				D05C73A618989F2200383531 /* RentalCar.m */,
 				D05C739E18989D0F00383531 /* JumpstartObjc1a.1 */,
 				D05C739C18989D0F00383531 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05C73A718989F2200383531 /* RentalCar.m in Sources */,
 				D05C739B18989D0F00383531 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
